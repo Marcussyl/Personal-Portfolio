@@ -58,7 +58,7 @@ header {
 .projects_container {
     display: grid;
     background-color: lightsalmon;
-    padding: 5rem;
+    padding: 7rem;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 15%, repeat(2, 1fr);
     justify-content: center;
