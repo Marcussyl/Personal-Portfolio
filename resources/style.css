@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: lightseagreen;
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.basic_info {
+    margin-left: 5rem;
+}
+
+.further_info {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inspiring_words {
+    background-color: whitesmoke;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem;
+    border-radius: 15px;
+    /* border: solid 3px black; */
+}
+
+.degree {
+    background-color: whitesmoke;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    /* border: solid 3px black; */
+}
+
+.projects_container {
+    display: grid;
+    background-color: lightsalmon;
+    padding: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 15%, repeat(2, 1fr);
+    justify-content: center;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.title {
+    grid-column: 1/3;
+    align-self: center;
+}
+
+.project {
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 3px black;
+}
+
+.certificates_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10%, repeat(2, 1fr);
+    justify-content: center;
+    justify-items: center;
+    padding: 4rem;
+}
+
+.certificate_img {
+    height: 17em;
+    width: 25em;
+    padding: 3rem;
+}
+
+footer {
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: lightslategray;
+}
+
+.ref_link {
+    color: black;
+}
+
+.copyright {
+    position: absolute;
+    left: 3px;
+}
