@@ -18,6 +18,12 @@ header {
     margin-left: 5rem;
 }
 
+.profile_img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
 .further_info {
     padding: 3rem;
     display: flex;
@@ -51,7 +57,7 @@ header {
 
 .projects_container {
     display: grid;
-    background-color: lightsalmon;
+    background-color: whitesmoke;
     padding: 5rem;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 15%, repeat(2, 1fr);
@@ -66,7 +72,7 @@ header {
 }
 
 .project {
-    background-color: whitesmoke;
+    background-color: white;
     padding: 2rem;
     border-radius: 15px;
     display: flex;
